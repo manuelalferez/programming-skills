@@ -47,5 +47,5 @@ test("The input binary string 00000000000000000000000010000000 must return 1", (
 
 test("The input binary string 11111111111111111111111111111101 must return 31", () => {
   expect(hammingWeight(0b11111111111111111111111111111101)).toBe(31);
-});◊
+});
 ```
